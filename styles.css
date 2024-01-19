@@ -1,0 +1,19 @@
+#logoBar{
+  width: 30vw;
+  height: 100vh;
+}
+#siteLogo{
+  width: 100%;
+}
+body {
+  display: flex;
+}
+#staffGallery{
+  width: 70vw;
+}
+.galleryImage{
+  display: block;
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
