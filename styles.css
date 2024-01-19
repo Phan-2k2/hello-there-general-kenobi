@@ -1,19 +1,68 @@
-#logoBar{
-  width: 30vw;
-  height: 100vh;
+@media screen and (max-width: 600px) {
+  #logoBar{
+    width: 30vw;
+    height: 100vh;
+  }
+  #siteLogo{
+    width: 100%;
+  }
+  body {
+    display: flex;
+    background-color: pink;
+  }
+  #staffGallery{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .galleryImage{
+    width: 300px;
+  }
+  h1 {
+    color: lightblue;
+  }
+  html{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .galleryCard{
+    border: 5px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    margin: 20px;
+  }
 }
-#siteLogo{
-  width: 100%;
-}
-body {
-  display: flex;
-}
-#staffGallery{
-  width: 70vw;
-}
-.galleryImage{
-  display: block;
-  width: 300px;
-  border: 5px solid black;
-  border-radius: 10px;
+
+@media screen and (max-width: 600px) {
+  #logoBar{
+    width: 30vw;
+    height: 100vh;
+  }
+  #siteLogo{
+    width: 100%;
+  }
+  body {
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+  }
+  #staffGallery{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .galleryImage{
+    width: 300px;
+  }
+  h1 {
+    color: lightblue;
+  }
+  html{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .galleryCard{
+    border: 5px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    margin: 20px;
+  }
 }
